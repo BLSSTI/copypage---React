@@ -6,7 +6,6 @@ h1{
 }
   div {
     display: flex;
-    flex: 1;
     align-items: center;
     justify-content: center;
     justify-items: center;
@@ -17,6 +16,7 @@ img {
     display: flex;
     flex: 1;
     max-height: 95vh;
+    max-width: 100%;
   }
 p{
   position: absolute;
@@ -29,10 +29,17 @@ p{
 
 button{
   position: absolute;
-  font-size: 40px;
+  font-size: 30px;
   cursor: pointer;
   margin-top: 15%;
   background-color: white;
+  font-family:'Poppins', sans-serif;
+  font-style: thin;
+  font-weight: bold; 
+  width:300px;
+  color: #4d4d4d;
+
+
   
 }
 
