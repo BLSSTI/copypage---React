@@ -25,7 +25,14 @@ export const StyledFooter = styled.footer`
   .containertext {
     /* margin: 5% 2% 0% 5%; */
     align-items: flex-end;
-    margin: 0% 5% 0% 5%;
+    margin: 0% 5% -10% 5%;
+    padding-top: 50px;
+    font-family: 'Poppins', sans-serif;
+    h2{
+      font-height: 0;
+      font-size: 14px;
+      font-family: 'Poppins', sans-serif;
+    }
   }
   /* margin: 5% 2% 5% 5%; */
 
@@ -47,7 +54,7 @@ p{
     max-width: 100%;
     width: 100%;
     height: 100px;
-    background-color: #0b2fa2;
+    background-color: #0e50a7;
     vertical-align: top;
 
     h1,

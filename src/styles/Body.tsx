@@ -14,6 +14,10 @@ margin: 5% 2% 5% 5%;
   height: 300px;
   width: 100%;
   margin-top: 20px;
+
+  @media screen and (max-width: 900px) {
+    flex-wrap: wrap;
+}
 }
 
 .cont , .full> .textcard {
@@ -60,10 +64,5 @@ img{
   flex-grow: 2;
 }
 
-.textcard{
-
-
-
-}
 
 `;

@@ -1,6 +1,13 @@
 import styled from "styled-components";
 
+
 export const HeaderStyle = styled.header`
+header{
+  display: flex;
+  align-items: center;
+}
+
+
 h1{
   font-family: 'Poppins', sans-serif;
 }
@@ -17,6 +24,8 @@ img {
     flex: 1;
     max-height: 95vh;
     max-width: 100%;
+    align-items: center;
+
   }
 p{
   position: absolute;
@@ -27,8 +36,18 @@ p{
   font-family: 'Poppins-Bold', sans-serif;
   font-weight: bold;  }
 
-button{
-  position: absolute;
+
+.bt > a > button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+
+}
+
+  button{
+  display:flex;
   font-size: 30px;
   cursor: pointer;
   margin-top: 15%;
